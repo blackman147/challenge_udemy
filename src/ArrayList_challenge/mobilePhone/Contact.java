@@ -1,10 +1,10 @@
 package ArrayList_challenge.mobilePhone;
 
-public class Contacts {
+public class Contact {
    private String names;
    private String phoneNumber;
 
-    public Contacts(String names, String phoneNumber) {
+    public Contact(String names, String phoneNumber) {
         this.names = names;
         this.phoneNumber = phoneNumber;
     }
@@ -17,8 +17,8 @@ public class Contacts {
         return phoneNumber;
     }
 
-    public static Contacts createContact (String names, String phoneNumber){
-        
+    public static Contact createContact (String names, String phoneNumber){
+        return new Contact(names, phoneNumber);
     }
 
 }
