@@ -16,7 +16,7 @@ public class Branch {
     }
 
     public ArrayList<Customer> getCustomers(){
-        return customers;
+        return customers; 
     }
 
     public boolean newCustomer(String customerName, double initialAmount){
